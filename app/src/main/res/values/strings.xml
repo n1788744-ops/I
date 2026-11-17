@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">4G Router</string>
+
+    <!-- Navigation -->
+    <string name="nav_router">Роутер</string>
+    <string name="nav_sim_signal">SIM и 4G</string>
+    <string name="nav_clients_config">Сеть</string>
+
+    <!-- Header & Status -->
+    <string name="router_title">4G Wi-Fi Роутер</string>
+    <string name="status_broadcasting">Раздача активна</string>
+    <string name="status_starting">Запуск точки доступа…</string>
+    <string name="status_standby">Режим ожидания</string>
+    <string name="status_system_active">Системная точка активна</string>
+    <string name="status_error">Ошибка запуска</string>
+
+    <!-- Modes -->
+    <string name="mode_section_title">Режим работы точки доступа</string>
+    <string name="mode_direct_bridge">Wi-Fi Мост + 4G</string>
+    <string name="mode_direct_bridge_desc">Запускает реальную Wi-Fi сеть прямо из приложения и раздаёт интернет SIM-карты через встроенный 4G прокси-шлюз.</string>
+    <string name="mode_system_tether">Системный 4G Hotspot</string>
+    <string name="mode_system_tether_desc">Полноценная NAT-раздача 4G интернета средствами Android с именем MyHotspot и паролем sw22vmi55xr11 (WPA2-PSK).</string>
+    <string name="mode_local_ap">Локальный Wi-Fi AP</string>
+    <string name="mode_local_ap_desc">Создаёт встроенную точку доступа LocalOnlyHotspot с прокси-маршрутизацией через 4G SIM.</string>
+
+    <!-- Actions -->
+    <string name="action_start_router">Включить Wi-Fi роутер</string>
+    <string name="action_stop_router">Остановить раздачу</string>
+    <string name="action_open_tether_settings">Открыть настройки точки доступа</string>
+    <string name="action_copy_ssid">Копировать имя</string>
+    <string name="action_copy_password">Копировать пароль</string>
+    <string name="action_show_qr">QR-код подключения</string>
+    <string name="action_grant_permissions">Выдать разрешения</string>
+    <string name="action_ping_4g">Проверить пинг 4G</string>
+    <string name="action_open_mobile_settings">Настройки SIM / 4G</string>
+    <string name="action_save_profile">Сохранить профиль</string>
+    <string name="action_reset_defaults">Сброс: MyHotspot</string>
+    <string name="action_refresh">Обновить</string>
+
+    <!-- Credentials -->
+    <string name="credentials_title">Параметры Wi-Fi сети</string>
+    <string name="label_ssid">Имя сети (SSID)</string>
+    <string name="label_password">Пароль</string>
+    <string name="label_security">Шифрование</string>
+    <string name="label_gateway_proxy">Шлюз / 4G Прокси</string>
+    <string name="label_band">Диапазон</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+
+    <!-- SIM & 4G -->
+    <string name="sim_section_title">SIM-карта и усиление 4G</string>
+    <string name="sim_ready">SIM активна</string>
+    <string name="sim_absent">SIM-карта не найдена</string>
+    <string name="sim_unknown">Нет доступа к SIM</string>
+    <string name="label_carrier">Оператор</string>
+    <string name="label_network_type">Тип сети</string>
+    <string name="label_signal_strength">Уровень сигнала</string>
+    <string name="label_download">Загрузка (RX)</string>
+    <string name="label_upload">Отдача (TX)</string>
+    <string name="label_session_data">Трафик сессии</string>
+    <string name="label_latency">Задержка 4G</string>
+    <string name="boost_controls_title">Усиление и удержание канала</string>
+    <string name="boost_pin_cellular">Приоритет 4G SIM канала</string>
+    <string name="boost_pin_cellular_desc">Удерживает активное 4G LTE подключение SIM-карты даже при поднятии Wi-Fi точки.</string>
+    <string name="boost_wifi_lock">Wi-Fi High-Perf режим</string>
+    <string name="boost_wifi_lock_desc">Отключает энергосбережение Wi-Fi радиомодуля для минимальной задержки.</string>
+    <string name="boost_wake_lock">Непрерывная работа (WakeLock)</string>
+    <string name="boost_wake_lock_desc">Не даёт процессору засыпать при раздаче интернета в фоне.</string>
+
+    <!-- Clients & Config -->
+    <string name="clients_title">Подключённые устройства</string>
+    <string name="clients_empty">Пока нет подключённых устройств. Подключитесь к Wi-Fi сети или отсканируйте QR-код.</string>
+    <string name="interfaces_title">Активные сетевые интерфейсы</string>
+    <string name="permissions_title">Системные разрешения</string>
+    <string name="config_title">Настройка профиля WPA2-PSK</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Работа 4G Wi-Fi роутера</string>
+    <string name="notif_channel_desc">Показывает состояние точки доступа и скорость 4G SIM</string>
+    <string name="notif_stop_action">Остановить</string>
+</resources>

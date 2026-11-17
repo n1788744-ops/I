@@ -1,11 +1,24 @@
-<div align="center">
+# 4G Router
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Android-приложение для управления 4G SIM-роутером и раздачей Wi-Fi с профилем по умолчанию **`MyHotspot`** / **`sw22vmi55xr11`** (**`WPA2-PSK`**).
 
-  <h1>Built with AI Studio</h2>
+## Скачать APK
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Готовый установочный файл добавлен в репозиторий:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **[Скачать `apk/4G-Router.apk`](apk/4G-Router.apk)** (нажмите **View raw** / **Download raw file** на странице файла в GitHub)
 
-</div>
+## Параметры сети по умолчанию
+
+- **SSID:** `MyHotspot`
+- **Пароль:** `sw22vmi55xr11`
+- **Шифрование:** `WPA2-PSK`
+- **4G Прокси-шлюз:** порт `8888`
+
+## Возможности
+
+- **Wi-Fi Мост + 4G (`WifiP2pManager`)** — запуск WPA2-PSK точки прямо из приложения и встроенный HTTP/HTTPS `CONNECT` прокси-шлюз через сотовый канал SIM-карты.
+- **Системный 4G Hotspot** — быстрый запуск системного NAT-тетеринга с копированием пароля и мониторингом SoftAP-интерфейса.
+- **Локальный Wi-Fi AP (`LocalOnlyHotspot`)** — локальная точка доступа с 4G прокси-маршрутизацией.
+- **SIM и усиление 4G** — мониторинг оператора, типа сети (`4G LTE` / `4G+` / `5G`), сигнала (дБм), живого графика скорости (`TrafficStats`), удержание `TRANSPORT_CELLULAR` и замер TCP-пинга.
+- **QR-подключение** — генерация Wi-Fi QR-кода (`WIFI:T:WPA;S:MyHotspot;P:sw22vmi55xr11;;`).
